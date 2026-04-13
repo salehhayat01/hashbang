@@ -1,0 +1,26 @@
+# Build output (prefer: go build -o bin/<name> ./...)
+/bin/
+/dist/
+
+# Root-level binaries when built without -o
+/hashbang
+
+# Compiled / test
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Coverage
+coverage.html
+coverage.txt
+
+# Go workspace (local)
+go.work
+go.work.sum
+
+# OS / editor
+.DS_Store
